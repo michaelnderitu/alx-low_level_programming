@@ -3,16 +3,15 @@
 /**
  * main - Entry point
  * printf - prints the size of the computer
- * return - Always 0
+ * Return: Always 0
  */
 
-int main()
+int main(void)
 {
-  printf("Size of char: %lu\n", sizeof(char)   byte(s));
-  printf("Size of int: %lu\n", sizeof(int)" byte(s)");
-  printf("Size of float: %lu\n", sizeof(float)" byte(s)");
-  printf("Size of double: %lu\n", sizeof(double)" byte(s)");
-  printf("Size of long: %lu\n", sizeof(long)" byte(s)");
-
-return 0;
+printf("Size of char: %d byte(s)\n", sizeof(char));
+printf("Size of int: %d byte(s)\n", sizeof(int));
+printf("Size of float: %lu bytes(s)\n", sizeof(float));
+printf("Size of double: %lu byte(s)\n", sizeof(double));
+printf("Size of long: %lu byte(s)\n", sizeof(long));
+return (0);
 }
