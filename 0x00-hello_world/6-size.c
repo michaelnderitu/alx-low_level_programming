@@ -8,7 +8,7 @@
 
 int main()
 {
-  printf("Size of char: %lu\n", sizeof(char)" byte(s)");
+  printf("Size of char: %lu\n", sizeof(char)   byte(s));
   printf("Size of int: %lu\n", sizeof(int)" byte(s)");
   printf("Size of float: %lu\n", sizeof(float)" byte(s)");
   printf("Size of double: %lu\n", sizeof(double)" byte(s)");
