@@ -8,11 +8,11 @@
 
 int main()
 {
-printf("Size of char:%lu\n",sizeof(char));
-printf("Size of int:%lu\n",sizeof(int));
-printf("Size of float:%lu\n",sizeof(float));
-printf("Size of double:%lu\n",sizeof(double));
-printf("Size of long:%lu\n",sizeof(long));
+  printf("Size of char: %lu\n", sizeof(char)" byte(s)");
+  printf("Size of int: %lu\n", sizeof(int)" byte(s)");
+  printf("Size of float: %lu\n", sizeof(float)" byte(s)");
+  printf("Size of double: %lu\n", sizeof(double)" byte(s)");
+  printf("Size of long: %lu\n", sizeof(long)" byte(s)");
 
 return 0;
 }
