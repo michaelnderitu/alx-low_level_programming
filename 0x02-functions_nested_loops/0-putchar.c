@@ -1,13 +1,16 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- *main - Entry point
+ *main - prints a character
  *
+ *Return: always 0
  */
-
-int main()
+int main(void)
 {
-  addition();
-  return 0;
+char c;
+c = 'A';
+_putchar(c);
+_putchar('\n');
+
+return (0);
 }
