@@ -21,7 +21,7 @@ for (o = 0; o <= n; o++)
 {
 if (o % 2 == 0)
 {
-_putchar(str[0]);
+_putchar(str[o]);
 }
 }
 _putchar('\n');
